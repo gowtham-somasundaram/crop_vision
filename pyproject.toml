@@ -1,0 +1,23 @@
+
+[project]
+name = "cropvision"
+version = "0.1.0"
+description = "Crop image classification using pretrained vision embeddings"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "numpy",
+    "pillow",
+    "scikit-learn",
+    "torch",
+    "torchvision",
+    "timm",
+    "joblib",
+    "pandas>=3.0.6",
+    "matplotlib>=3.11.2",
+]
+
+[dependency-groups]
+dev = [
+    "pytest",
+]

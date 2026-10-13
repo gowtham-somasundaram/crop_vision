@@ -1,0 +1,22 @@
+# Python environment and cache
+.venv/
+__pycache__/
+*.py[cod]
+
+# Secrets
+.env
+.env.*
+
+# Local datasets and generated artifacts
+Dataset/
+data/
+artifacts/
+
+# Trained models and embeddings
+*.joblib
+*.pth
+*.pt
+*.npz
+
+# Generated experiment outputs
+3_Experiments/**/results/
